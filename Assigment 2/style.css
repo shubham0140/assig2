@@ -1,0 +1,25 @@
+div {
+    position: sticky;
+    top: 10px;
+    background-color: rgb(43, 226, 67);
+    border: 2px solid black;
+    font-size: x-large;
+    padding: 20px;
+}
+
+h1 {
+    background-color: rgb(255, 77, 0);
+    border: 2px solid black;
+    font-size: xx-large;
+    text-align: center;
+    padding: 30px;
+}
+
+p::before {
+    content: '\2706';
+}
+
+p {
+    font-size: larger;
+    background-color: cornflowerblue;
+}
